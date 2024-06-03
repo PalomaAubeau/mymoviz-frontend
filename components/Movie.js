@@ -60,7 +60,7 @@ function Movie(props) {
         <div>
           <span className={styles.name}>{props.title}</span>
           <p className={styles.description}>
-            {props.overview.substring(0, 250)}...
+            {props.overview.substring(0, 200)}...
           </p>
         </div>
         <div className={styles.iconContainer}>
